@@ -254,7 +254,7 @@ $languages_list = [
             Вы вошли как <strong><?= htmlspecialchars($current_user_login) ?></strong>
             <a href="login.php?action=logout">Выйти</a>
         <?php else: ?>
-            <a href="login.php">Войти</a> для редактирования ранее отправленных данных
+            <a href="login.php">Войти</a>
         <?php endif; ?>
     </div>
     
